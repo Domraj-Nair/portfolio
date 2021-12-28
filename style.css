@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: rgb(239, 248, 255);
+}
+
+.header-on-left {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(84, 114, 209);
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  top: 40px;
+}
+
+.nav-ul-center {
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  position: relative;
+  left: 550px;
+  top: 10px;
+  padding-inline-start: 10px;
+  font-size: 20px;
+}
+
+a:hover {
+  transition: 0.1s;
+  opacity: 0.5;
+  background-color: rgb(246, 254, 255);
+}
+
+.nav-table-row {
+  display: inline-block;
+  padding-inline-start: 20px;
+  position: relative;
+  left: 1200px;
+  bottom: 20px;
+}
+
+.section-left-text {
+  display: inline-block;
+  position: relative;
+  bottom: 70px;
+  left: 100px;
+  line-height: 1.5;
+}
+
+.section-right-image {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  bottom: 10px;
+}
+
+.heading-1 {
+  font-family: sans-serif;
+}
+
+.heading-name {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.heading-2 {
+  color: rgb(46, 70, 189);
+}
+
+.heading-3 {
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.button {
+  background-color: rgb(144, 159, 243);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+button:hover {
+  background-color: rgb(23, 45, 169);
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.text-y-axis {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: inline-block;
+  position: relative;
+  left: 330px;
+  top: 40px;
+  font-size: 120px;
+  color: rgb(185, 185, 218);
+}
